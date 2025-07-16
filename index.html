@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Ropa y Tenis</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #1e88e5;
+      color: white;
+      padding: 1.5rem 2rem;
+      text-align: center;
+    }
+    .catalogo {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      padding: 2rem;
+    }
+    .producto {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      width: 300px;
+      padding: 1rem;
+      transition: transform 0.3s ease;
+    }
+    .producto:hover {
+      transform: scale(1.03);
+    }
+    .producto img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      background-color: #ccc;
+    }
+    .nombre {
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin: 0.8rem 0 0.3rem;
+    }
+    .descripcion {
+      font-size: 0.95rem;
+      margin-bottom: 0.5rem;
+    }
+    .precio {
+      font-size: 1.1rem;
+      color: #388e3c;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Catálogo de Ropa y Tenis</h1>
+    <p>Explora nuestros productos y encuentra tu estilo</p>
+  </header>
+
+  <div class="catalogo">
+    <div class="producto">
+      <img src="" alt="Playera Casual">
+      <div class="nombre">Playera Casual</div>
+      <div class="descripcion">Playera 100% algodón, disponible en varias tallas (S, M, L, XL).</div>
+      <div class="precio">$250 MXN</div>
+    </div>
+
+    <div class="producto">
+      <img src="" alt="Pantalón Deportivo">
+      <div class="nombre">Pantalón Deportivo</div>
+      <div class="descripcion">Pantalón ligero y cómodo, ideal para el ejercicio o uso diario.</div>
+      <div class="precio">$480 MXN</div>
+    </div>
+
+    <div class="producto">
+      <img src="" alt="Tenis Urbanos">
+      <div class="nombre">Tenis Urbanos</div>
+      <div class="descripcion">Tenis con diseño moderno, suela antiderrapante y plantilla ergonómica.</div>
+      <div class="precio">$890 MXN</div>
+    </div>
+
+    <div class="producto">
+      <img src="" alt="Sudadera Unisex">
+      <div class="nombre">Sudadera Unisex</div>
+      <div class="descripcion">Sudadera suave, disponible en varios colores.</div>
+      <div class="precio">$550 MXN</div>
+    </div>
+
+    <div class="producto">
+      <img src="" alt="Tenis Deportivos">
+      <div class="nombre">Tenis Deportivos</div>
+      <div class="descripcion">Tenis especiales para correr, con soporte en el talón y amortiguación.</div>
+      <div class="precio">$1,150 MXN</div>
+    </div>
+
+    <div class="producto">
+      <img src="" alt="Conjunto Deportivo">
+      <div class="nombre">Conjunto Deportivo</div>
+      <div class="descripcion">Conjunto completo (pantalón + sudadera) para entrenamiento.</div>
+      <div class="precio">$890 MXN</div>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 - Catálogo creado para tienda de ropa y tenis. Escanea el QR para acceder directamente.
+  </footer>
+</body>
+</html>
